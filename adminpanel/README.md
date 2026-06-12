@@ -1,16 +1,187 @@
-# React + Vite
+# 🛒 Grocery Store Admin Panel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Admin Dashboard built using **React.js**, **Spring Boot**, **MongoDB**, and **Cloudinary** for managing grocery products, inventory, and customer orders efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 🥦 Product Management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Add new grocery products
 
-## Expanding the ESLint configuration
+✅ Upload product images
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Manage product details (Name, Category, Price, Description)
+
+✅ View all available products
+
+✅ Delete products from inventory
+
+### 📦 Inventory Management
+
+✅ Organize products by categories
+
+✅ Manage stock items
+
+✅ Maintain product catalog
+
+### 🛍️ Order Management
+
+✅ View customer orders
+
+✅ Track order status
+
+✅ Manage order fulfillment
+
+### 🎨 Admin Dashboard
+
+✅ Responsive UI
+
+✅ Sidebar Navigation
+
+✅ Product Listing Table
+
+✅ Image Upload Support
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology  | Purpose             |
+| ----------- | ------------------- |
+| React.js    | Frontend UI         |
+| Bootstrap   | Styling             |
+| Axios       | API Communication   |
+| Spring Boot | Backend Development |
+| MongoDB     | Database            |
+| Cloudinary  | Image Storage       |
+| REST API    | Data Exchange       |
+
+---
+
+## 📸 Screenshots
+
+### ➕ Add Product Page
+
+<img src="./screenshot/add_product.png" width="900">
+
+**Features**
+
+* Upload Product Image
+* Add Product Information
+* Set Product Category
+* Enter Product Price
+* Save Product
+
+---
+
+### 📋 Product Management Page
+
+<img src="./screenshot/product_list.png" width="900">
+
+**Features**
+
+* View Available Products
+* Manage Inventory
+* Delete Products
+* Product Categorization
+
+---
+
+## 📂 Project Structure
+
+```bash
+adminpanel/
+│
+├── screenshots/
+│   ├── add-product.png
+│   └── product-list.png
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── services/
+│   └── App.jsx
+│
+├── public/
+└── package.json
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/prince2655/Grocery-Store.git
+```
+
+### Navigate to Project
+
+```bash
+cd Grocery-Store/adminpanel
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Application
+
+```bash
+npm run dev
+```
+
+Application will start on:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🔗 Backend Configuration
+
+Configure backend API URL:
+
+```javascript
+const API_URL = "http://localhost:8080";
+```
+
+---
+
+## 🌟 Key Highlights
+
+✔ Grocery Product Management
+
+✔ Inventory Administration
+
+✔ Image Upload Support
+
+✔ MongoDB Integration
+
+✔ REST API Architecture
+
+✔ Responsive Dashboard
+
+✔ Scalable Application Structure
+
+---
+
+## 🎯 Future Enhancements
+
+* 🔐 Admin Authentication
+* 📊 Sales Analytics Dashboard
+* 🔍 Product Search & Filters
+* 📦 Stock Monitoring
+* 📈 Inventory Reports
+* 👥 Role-Based Access Control
+* 📱 Enhanced Mobile Support
+
+
+### ⭐ If you found this project useful, don't forget to Star the repository!
